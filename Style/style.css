@@ -1,7 +1,7 @@
 body {
     background-color: rgba(147, 49, 192, 0.705)
 }
- img{
+ img {
     attachment: scroll;
     size: 100% 100%;
     repeat: no-repeat;
@@ -10,4 +10,26 @@ body {
     margin-right: auto;
     width: 50%;
     border-radius: 50%;
+ }
+ h1 {
+    color: rgba(238, 255, 252, 0.582);
+    text-align: center;
+    text-shadow: whitesmoke;
+ }
+ h2 {
+     color: rgba(238, 255, 252, 0.582);
+     text-align: center;
+ }
+ p {
+    color: rgba(238, 255, 252, 0.582);
+    text-align: center;
+ }
+ h3 {
+     color: rgba(238, 255, 252, 0.582);
+     text-align: center;
+     text-underline-position: above;
+ }
+ ul {
+     color: rgba(238, 255, 252, 0.582);
+     text-align: center;
  }
