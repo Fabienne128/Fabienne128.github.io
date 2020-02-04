@@ -2,6 +2,12 @@ body {
     background-color: rgba(147, 49, 192, 0.705)
 }
  img{
-    background-attachment: scroll;
-    background-size: 50% 50%;
-}
+    attachment: scroll;
+    size: 100% 100%;
+    repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+ }
