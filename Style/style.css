@@ -1,5 +1,8 @@
 body {
-    background-color: rgba(147, 49, 192, 0.705)
+    background-color: rgba(47, 157, 177, 0.705)
+}
+body {
+    background-image: url('img/karte_schweiz.png');
 }
  img {
     attachment: scroll;
@@ -9,10 +12,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border-radius: 50%;
  }
  h1 {
-    color: rgba(238, 255, 252, 0.582);
+    color: rgba(48, 161, 141, 0.582);
     text-align: center;
     text-shadow: whitesmoke;
  }
