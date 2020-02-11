@@ -1,8 +1,14 @@
 body {
     background-color: rgba(47, 157, 177, 0.705)
 }
-body {
-    background-image: url('img/karte_schweiz.png');
+.bg-image {
+    background-image: url('../img/karte_schweiz_1.png');
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
 }
  img {
     attachment: scroll;
