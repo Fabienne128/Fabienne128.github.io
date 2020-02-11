@@ -1,6 +1,6 @@
 body {
-    background-image: url('img/karte_schweiz_2.png');
-    
+}
+
 }
  img {
     attachment: scroll;
@@ -10,26 +10,22 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    border-radius: 50%;
  }
  h1 {
-    color: rgba(48, 161, 141, 0.582);
     text-align: center;
     text-shadow: whitesmoke;
  }
- h2 {
-     color: rgba(238, 255, 252, 0.582);
+ h2 { 
      text-align: center;
  }
  p {
-    color: rgba(238, 255, 252, 0.582);
     text-align: center;
  }
  h3 {
-     color: rgba(238, 255, 252, 0.582);
      text-align: center;
      text-underline-position: above;
  }
- ul {
-     color: rgba(238, 255, 252, 0.582);
+ li {
      text-align: center;
  }
