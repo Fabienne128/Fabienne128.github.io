@@ -1,6 +1,7 @@
 body {
 }
 
+
 .karte_schweiz {
     size: 100% 100%;
     display: block;
@@ -16,7 +17,13 @@ body {
 .schweiz_1_1 {
     text-align: center;
 }
+.schweiz_1_2 {
+    text-align: center;
+}
 
+.index_schwyz.html {
+    background-color: rgb(130, 233, 211);
+}
  .tierpark_goldau {
     size: 100% 100%;
     display: block;
@@ -29,10 +36,48 @@ body {
     text-align: center;
     text-shadow: whitesmoke;
  }
-
 .tierpark_1_1 {
     text-align: center;
 }
+
+.index_tessin.html {
+    background-color: rgb(196, 95, 13);
+}
+.swiss_miniatur_0 {
+    size: 100% 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;  
+}
+
+.swiss_miniatur {
+    text-align: center;
+}
+.swiss_miniatur_1_1 {
+    text-align: center;
+}
+
+.index_zürich.html {
+    background-color: rgb(150, 49, 190);
+}
+.bruno_weber_0 {
+    size: 100% 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+.bruno_weber {
+    text-align: center;
+}
+.bruno_weber_1_1 {
+    text-align: center;
+}
+
+
 
  }
  h2 { 
