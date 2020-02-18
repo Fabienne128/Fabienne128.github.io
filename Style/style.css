@@ -1,20 +1,39 @@
 body {
 }
 
-}
- img {
-    attachment: scroll;
+.karte_schweiz {
     size: 100% 100%;
-    repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+.schweiz {
+    text-align: center;
+    text-shadow: whitesmoke;
+}
+.schweiz_1_1 {
+    text-align: center;
+}
+
+ .tierpark_goldau {
+    size: 100% 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     border-radius: 50%;
  }
- h1 {
+ .tierpark {
     text-align: center;
     text-shadow: whitesmoke;
+ }
+
+.tierpark_1_1 {
+    text-align: center;
+}
+
  }
  h2 { 
      text-align: center;
