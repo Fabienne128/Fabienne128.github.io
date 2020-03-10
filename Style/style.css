@@ -40,6 +40,16 @@ body {
     text-align: center;
 }
 
+.table#tierpark_goldau{
+    width: max-content;
+    border-color: slateblue;
+    margin-top: initial;
+    table-layout: ;
+}
+
+.table_tierpark{
+    text-align: center;
+}
 .index_tessin.html {
    
 }
