@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html>
+
+<!-- der Header-->
   <head>
     <meta charset="utf-8">
     <meta name="Fabienne" content="Goldau">
     <meta name="description" content="Tierpark Goldau">
     <title>Goldau</title>¨
     <link href="Style/style.css" rel="stylesheet" type="text/css">
+    <script src="Scripts/scripts.js"></script>
   </head>
+
+<!--  https://itnext.io/how-to-create-a-responsive-navigation-bar-with-html-css-and-jquery-step-by-step-tutorial-9c780b58479f
+      Wie man eine Navigation Bar erstellt - Gerüst stammt von hier
+      https://medium.com/@mgordoncarneal/how-to-create-a-navigation-bar-with-html-css-and-javascript-82a0502f4dcc
+      - eine andere Möglichkeit einen Navigation Bar zu erstellen - bin gerade an diesem -->
+<div class="wrapper">
+<nav class="navigation">
+  <div class="logo"> LOGO </div>
+<ul class="navigation_ul">
+    <button class="navigation_button"> X </button>
+  <li class="navigation_li">
+      <a class="navigation_a" href="">Start</a>
+  </li>
+  <li class="navigation_li">
+    <a class="navigation_a" href="">Ortschaften</a>
+  </li >
+  <li class="navigation_li">
+    <a class="navigation_a" href="">Attraktionen</a >
+  </li >
+  <li class="navigation_li">
+    <a class="navigation_a" href="">Kommentare</a >
+  </li >
+  <li class="navigation_li">
+    <a class="navigation_a" href="">Quellen</a > 
+  </li >
+</ul>
+</nav>
+</div>
 
   <body>
         <div class=".bg-image"></div>
@@ -37,7 +68,7 @@
        <!-- sollte in die Mitte-->
         
    
-        <p> Gegründet 1925 liegt der <a href="https://www.tierpark.ch/"> Tierpark Goldau</a> seit nun fast 100 Jahren im Bergsturzgebiet Goldau. 
+        <p> Gegründet 1925 liegt der <a class="navigation_2" href="https://www.tierpark.ch/"> Tierpark Goldau</a class="navigation_2"> seit nun fast 100 Jahren im Bergsturzgebiet Goldau. 
             Auf einem weitläufigen Areal bietet er über 120 verschiedenen Tierarten ein Zuhause. 
             Bis auf die Bären stammen alle seine Tiere aus Euopa. 
             Dies ist auch das Übergeordnete Ziel des Natur- & Tierschutzvereines Goldau, der Bevölkerung die europäische Tier- und Planzenvielfalt näher zu bringen.
@@ -48,15 +79,15 @@
           </p>
  
   <footer>
-          <li> 
-            <a href="index.html"> Zurück zur Hauptseite</a>
-          </li>
-          <li class="schweiz_1_2"> 
-            <a href="index_zurich.html"> Zürich</a>
-          </li>
-          <li class="schweiz_1_2">
-            <a href="index_tessin.html"> Tessin</a>
-          </li>
+          <li class="navigation_1"> 
+            <a class="navigation_2" href="index.html"> Zurück zur Hauptseite</a class="navigation_2">
+          </li class="navigation_1">
+          <li class="navigation_1" class="schweiz_1_2"> 
+            <a class="navigation_2" href="index_zurich.html"> Zürich</a class="navigation_2">
+          </li class="navigation_1">
+          <li class="navigation_1" class="schweiz_1_2">
+            <a class="navigation_2" href="index_tessin.html"> Tessin</a class="navigation_2">
+          </li class="navigation_1">
   </footer>        
           
   </body>
@@ -64,8 +95,8 @@
   <footer>
     <h3>Andere Seiten</h3>
     
-      <li><a href="https://silvia314.github.io">Website von Silvia</a></li>
-      <li><a href="https://chxrlxttxx.github.io">Website von Charlotte</a></li>      
+      <li class="navigation_1"><a class="navigation_2" href="https://silvia314.github.io">Website von Silvia</a class="navigation_2"></li class="navigation_1">
+      <li class="navigation_1"><a class="navigation_2" href="https://chxrlxttxx.github.io">Website von Charlotte</a class="navigation_2"></li class="navigation_1">      
   
   </footer>
 

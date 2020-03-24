@@ -1,6 +1,48 @@
 footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; background-color: white; height: 175px; }
 }
 
+.navigation {
+    width: auto;
+    background-color: rgba(138, 183, 224, 0.87);
+}
+
+.navigation_li  {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: initial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+.navigation_a {
+    text-decoration: none;
+    color: lightcoral;
+    padding: 2vw;
+    font-family: monospace;
+    display: block;
+    
+}
+
+.navigation_ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation_a:hover{
+    background-color: lightseagreen;
+}
+
+.navigation_button{
+    display: none;
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: magenta;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
 
 .karte_schweiz {
     size: 100% 100%;
