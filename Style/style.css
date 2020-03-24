@@ -10,9 +10,9 @@ footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; backg
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+  'header header header header header header'
+  'menu main main main main right'
+  'menu footer footer footer footer footer';
   grid-gap: 10px;
   background-color: white;
   padding: 10px;
@@ -38,7 +38,7 @@ footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; backg
     display: block;
     margin-left: none;
     margin-right: none;
-    width: 50%;
+    width: 100%;
     
 }
 
