@@ -1,13 +1,73 @@
 footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; background-color: white; height: 175px; }
 }
 
-/* background colour of the nav-bar */
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgb(247, 247, 247);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item2 a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+
+}
+
+/* grid item 3 picture */
+.karte_schweiz {
+    size: 100% 100%;
+    display: block;
+    margin-left: none;
+    margin-right: none;
+    width: 50%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+background colour of the nav-bar 
 .topnav {
     background-color: royalblue;
     overflow: hidden;
 }
 
-/* style of the links in the navigation bar*/
+style of the links in the navigation bar
 .topnav a{ 
     float: left;
     display: block;
@@ -18,22 +78,23 @@ footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; backg
     font-size: 17px; 
 }
 
-/* hover*/
+hover
 .topnav a:hover{
     background-color: slateblue;
     color: black;
 }
 
-/* add active class for the current page */
+add active class for the current page 
 .topnav a.active {
     background-color: turquoise;
     color: white;
 }
 
-/* Hide the link that should open and close the topnav on small screens */
+ Hide the link that should open and close the topnav on small screens 
 .topnav .icon {
     display: none;
   }
+*/
 
 
 
@@ -65,8 +126,7 @@ footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; backg
 
 
 
-
-
+/*
 .navigation {
     width: auto;
     background-color: rgba(138, 183, 224, 0.87);
@@ -109,7 +169,8 @@ footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; backg
     outline: none;
     cursor: pointer;
 }
-
+*/
+/*
 .karte_schweiz {
     size: 100% 100%;
     display: block;
@@ -118,6 +179,7 @@ footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; backg
     width: 50%;
     border-radius: 50%;
 }
+*/
 .schweiz {
     text-align: center;
     text-shadow: whitesmoke;
