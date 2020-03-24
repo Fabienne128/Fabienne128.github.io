@@ -1,6 +1,72 @@
 footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; background-color: white; height: 175px; }
 }
 
+/* background colour of the nav-bar */
+.topnav {
+    background-color: royalblue;
+    overflow: hidden;
+}
+
+/* style of the links in the navigation bar*/
+.topnav a{ 
+    float: left;
+    display: block;
+    color: #65c4e0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+}
+
+/* hover*/
+.topnav a:hover{
+    background-color: slateblue;
+    color: black;
+}
+
+/* add active class for the current page */
+.topnav a.active {
+    background-color: turquoise;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .navigation {
     width: auto;
     background-color: rgba(138, 183, 224, 0.87);
