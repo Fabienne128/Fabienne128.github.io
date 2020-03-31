@@ -1,0 +1,82 @@
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: table;}
+.item4 { grid-area: main; }
+.item5 { grid-area: picture; }
+.item6 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header header'
+  'menu table table table table picture picture'
+  'menu main main main main main main '
+  'footer footer footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+/*codes item1*/
+
+.item1 h1 {
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(247, 247, 247);
+    }
+.item1 h3 {
+    text-align: center;
+    font-size: initial;
+    background-color: rgb(247, 247, 247);
+}
+
+/*codes item2 - navigation bar*/
+.item2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.item2 li {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: initial;
+    font-style: oblique;
+    text-align: left;
+    
+}
+.item2 a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    display: block;
+    width: 60px;
+
+}
+.item2 a:hover {
+    background-color: rgb(148, 46, 46);
+}
+.active {
+    background-color: rgba(184, 109, 109, 0.986);
+}
+
+/*codes for item3 - table*/
+.item3 table tr td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+    display: block;
+    background-color: rgb(247, 247, 247);
+
+}
+
+/*codes for item5 - picture*/
+.item5 {
+    size: 100% 100%;
+    display: block;
+    margin-left: none;
+    margin-right: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+}

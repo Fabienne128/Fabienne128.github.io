@@ -30,7 +30,6 @@ footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; backg
 
 .item1 h1 {
     text-align: center;
-    text-decoration: maroon;
     font-size: 30px;
 }
 .item1 h3 {
@@ -72,14 +71,12 @@ footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; backg
 
 
 /* grid item 3 picture */
-.karte_schweiz {
+.item3 {
     size: 100% 100%;
     display: block;
     margin-left: none;
     margin-right: none;
     width: 100%;
-    
-    
 }
 /* codes for item4 right*/
 
@@ -233,6 +230,7 @@ add active class for the current page
     border-radius: 50%;
 }
 */
+
 .schweiz {
     text-align: center;
     text-shadow: whitesmoke;
