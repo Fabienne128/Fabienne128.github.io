@@ -67,12 +67,11 @@
 .item3 {
     background-color: rgb(247, 247, 247);
 }
-.item3 table tr td {
+.item3 {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
     text-align: left;
-    display: block;
 }
 
 .item4 p {
