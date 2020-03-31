@@ -1,0 +1,322 @@
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header header'
+  'menu menu main main main main right'
+  'footer footer footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: rgb(247, 247, 247);
+  padding: 10px;
+}
+
+/*
+.grid-container > div {
+  background-color: rgb(247, 247, 247);
+  padding: 20px 0;
+}*/
+
+/*codes for item1*/
+
+.item1 h1 {
+    text-align: center;
+    font-size: 30px;
+}
+.item1 h3 {
+    text-align: center;
+    font-size: initial;
+}
+
+/* codes for item2 - navigation bar */
+
+.item2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.item2 li {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: initial;
+    font-style: oblique;
+    text-align: left;
+    
+}
+.item2 a {
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+    display: block;
+    width: 60px;
+
+}
+.item2 a:hover {
+    background-color: rgb(148, 46, 46);
+}
+.active {
+    background-color: rgba(184, 109, 109, 0.986);
+}
+
+
+
+/* grid item 3 picture */
+.item3 {
+    size: 100% 100%;
+    display: block;
+    margin-left: none;
+    margin-right: none;
+    width: 100%;
+}
+/* codes for item4 right*/
+
+.item4 {
+    text-align: right;
+    font-size: 16px;
+}
+
+
+/* codes for item5 footer */
+
+.item5 p {
+    text-align: right;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+background colour of the nav-bar 
+.topnav {
+    background-color: royalblue;
+    overflow: hidden;
+}
+
+style of the links in the navigation bar
+.topnav a{ 
+    float: left;
+    display: block;
+    color: #65c4e0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; 
+}
+
+hover
+.topnav a:hover{
+    background-color: slateblue;
+    color: black;
+}
+
+add active class for the current page 
+.topnav a.active {
+    background-color: turquoise;
+    color: white;
+}
+
+ Hide the link that should open and close the topnav on small screens 
+.topnav .icon {
+    display: none;
+  }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.navigation {
+    width: auto;
+    background-color: rgba(138, 183, 224, 0.87);
+}
+
+.navigation_li  {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: initial;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+.navigation_a {
+    text-decoration: none;
+    color: lightcoral;
+    padding: 2vw;
+    font-family: monospace;
+    display: block;
+    
+}
+
+.navigation_ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation_a:hover{
+    background-color: lightseagreen;
+}
+
+.navigation_button{
+    display: none;
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: magenta;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+*/
+/*
+.karte_schweiz {
+    size: 100% 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+*/
+
+.schweiz {
+    text-align: center;
+    text-shadow: whitesmoke;
+}
+.schweiz_1_1 {
+    text-align: center;
+}
+.schweiz_1_2 {
+    text-align: center;
+}
+
+.index_schwyz.html {
+    
+}
+ .tierpark_goldau {
+    size: 100% 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+ }
+ .tierpark {
+    text-align: center;
+    text-shadow: whitesmoke;
+ }
+.tierpark_1_1 {
+    text-align: center;
+}
+
+.table#tierpark_goldau{
+    width: max-content;
+    border-color: slateblue;
+    margin-top: initial;
+    table-layout: ;
+}
+
+.table_tierpark{
+    text-align: center;
+}
+.index_tessin.html {
+   
+}
+.swiss_miniatur_0 {
+    size: 100% 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;  
+}
+
+.swiss_miniatur {
+    text-align: center;
+}
+.swiss_miniatur_1_1 {
+    text-align: center;
+}
+
+
+.bruno_weber_0 {
+    size: 100% 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+.bruno_weber {
+    text-align: center;
+}
+.bruno_weber_1_1 {
+    text-align: center;
+}
+
+
+
+ }
+ h2 { 
+     text-align: center;
+ }
+ p {
+    text-align: center;
+ }
+ h3 {
+     text-align: center;
+     text-underline-position: above;
+ }
+ li {
+     text-align: center;
+ }
+
+
+ <!-- herausfinden, wie man Hintergrundfarben/Bilder individuell auf html Seiten anpasst. --> 
