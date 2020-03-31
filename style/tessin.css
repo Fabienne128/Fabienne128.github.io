@@ -64,13 +64,15 @@
 }
 
 /*codes for item3 - table*/
+.item3 {
+    background-color: rgb(247, 247, 247);
+}
 .item3 table tr td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 5px;
     text-align: left;
     display: block;
-    background-color: rgb(247, 247, 247);
 }
 
 .item4 p {
