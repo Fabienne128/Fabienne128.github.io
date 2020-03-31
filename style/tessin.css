@@ -21,16 +21,19 @@
 
 .item1 h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     background-color: rgb(247, 247, 247);
     }
 .item1 h3 {
     text-align: center;
-    font-size: initial;
+    font-size: 24px;
     background-color: rgb(247, 247, 247);
 }
 
 /*codes item2 - navigation bar*/
+.item2{
+    background-color: rgba(212, 182, 182, 0.87);
+}
 .item2 ul {
     list-style-type: none;
     margin: 0;
@@ -68,7 +71,11 @@
     text-align: left;
     display: block;
     background-color: rgb(247, 247, 247);
+}
 
+.item4 p {
+    text-align: left;
+    background-color: rgb(247, 247, 247);
 }
 
 /*codes for item5 - picture*/
