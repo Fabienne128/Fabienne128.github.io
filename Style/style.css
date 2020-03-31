@@ -1,5 +1,7 @@
+/*
 footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; background-color: white; height: 175px; }
 }
+*/
 
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
@@ -10,27 +12,64 @@ footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; backg
 .grid-container {
   display: grid;
   grid-template-areas:
-  'header header header header header header'
-  'menu main main main main right'
-  'menu footer footer footer footer footer';
+  'header header header header header header header'
+  'menu menu main main main main right'
+  'footer footer footer footer footer footer footer';
   grid-gap: 10px;
-  background-color: white;
+  background-color: rgb(247, 247, 247);
   padding: 10px;
 }
 
+/*
 .grid-container > div {
   background-color: rgb(247, 247, 247);
-  text-align: center;
   padding: 20px 0;
-  font-size: 30px;
+}*/
+
+/*codes for item1*/
+
+.item1 h1 {
+    text-align: center;
+    text-decoration: maroon;
+    font-size: 30px;
+}
+.item1 h3 {
+    text-align: center;
+    font-size: initial;
 }
 
+/* codes for item2 - navigation bar */
+
+.item2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.item2 li {
+    list-style-type: none;
+    margin: 0 2vw;
+    font-size: initial;
+    font-style: oblique;
+    text-align: left;
+    
+}
 .item2 a {
     text-decoration: none;
     color: black;
     text-align: left;
+    font-size: 20px;
+    display: block;
+    width: 60px;
 
 }
+.item2 a:hover {
+    background-color: rgb(148, 46, 46);
+}
+.active {
+    background-color: rgba(184, 109, 109, 0.986);
+}
+
+
 
 /* grid item 3 picture */
 .karte_schweiz {
@@ -40,8 +79,22 @@ footer { position: fixed bottom right; bottom: 0px; left: 0px; right: 0px; backg
     margin-right: none;
     width: 100%;
     
+    
+}
+/* codes for item4 right*/
+
+.item4 {
+    text-align: right;
+    font-size: 16px;
 }
 
+
+/* codes for item5 footer */
+
+.item5 p {
+    text-align: right;
+    font-size: 12px;
+}
 
 
 
