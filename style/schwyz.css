@@ -1,4 +1,3 @@
-
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: table;}
@@ -17,76 +16,77 @@
   padding: 10px;
 }
 
-/*codes item1*/
 
 .item1 h1 {
-    text-align: center;
-    font-size: 40px;
-    background-color: rgb(247, 247, 247);
-    }
+  text-align: center;
+  font-size: 40px;
+  background-color: rgb(247, 247, 247);
+  }
 .item1 h3 {
-    text-align: center;
-    font-size: 24px;
-    background-color: rgb(247, 247, 247);
+  text-align: center;
+  font-size: 24px;
+  background-color: rgb(247, 247, 247);
 }
 
-/*codes item2 - navigation bar*/
+/* cdes for item2 - navigation bar*/
+
 .item2{
     background-color: rgba(212, 182, 182, 0.87);
 }
+
 .item2 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .item2 li {
-    list-style-type: none;
-    margin: 0 2vw;
-    font-size: initial;
-    font-style: oblique;
-    text-align: left;
-    
+  list-style-type: none;
+  margin: 0 2vw;
+  font-size: initial;
+  font-style: oblique;
+  text-align: left;
+  
 }
 .item2 a {
-    text-decoration: none;
-    color: black;
-    text-align: left;
-    font-size: 20px;
-    display: block;
-    width: 60px;
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  display: block;
+  width: 60px;
 
 }
 .item2 a:hover {
-    background-color: rgb(148, 46, 46);
+  background-color: rgb(148, 46, 46);
 }
 .active {
-    background-color: rgba(184, 109, 109, 0.986);
+  background-color: rgba(184, 109, 109, 0.986);
 }
 
 /*codes for item3 - table*/
 .item3 {
-    background-color: rgb(247, 247, 247);
+  background-color: rgb(247, 247, 247);
 }
 .item3 {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 5px;
-    text-align: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: left;
 }
 
 .item4 p {
-    text-align: left;
-    background-color: rgb(247, 247, 247);
+  text-align: left;
+  background-color: rgb(247, 247, 247);
 }
 
 /*codes for item5 - picture*/
 .item5 {
-    size: 100% 100%;
-    display: block;
-    margin-left: none;
-    margin-right: none;
-    width: 100%;
-    background-color: rgb(247, 247, 247);
+  size: 75% 75%;
+  display: block;
+  margin-left: none;
+  margin-right: none;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
 }
 
 @media only screen and (min-width:600px) {
