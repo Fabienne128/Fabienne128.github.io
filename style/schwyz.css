@@ -32,6 +32,7 @@
 
 .item2{
     background-color: rgba(212, 182, 182, 0.87);
+    width: 250px;
 }
 
 .item2 ul {
@@ -58,9 +59,11 @@
 }
 .item2 a:hover {
   background-color: rgb(148, 46, 46);
+  width: max-content;
 }
 .active {
   background-color: rgba(184, 109, 109, 0.986);
+  min-width: 110px;
 }
 
 /*codes for item3 - table*/
@@ -102,18 +105,46 @@
       }
 }
 
-@media only screen and (max-width:500px) {
+/*@media only screen and (width:800px - 1000px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'menu table'
+    'menu picture'
+    'menu main'
+    'footer';
+    grid-gap: 10px;
+    padding: 10px;
+  }
+}*/
+
+@media only screen and (max-width:800px) {
     .grid-container {
         display: grid;
         grid-template-areas:
-        'header'
-        'menu'
-        'picture'
-        'table'
-        'main'
-        'footer';
+        'header header'
+        'menu table'
+        'picture picture'
+        'main main'
+        'footer footer';
         grid-gap: 10px;
         padding: 10px;
       }
+}
+
+@media only screen and (max-width:500px) {
+  .grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'menu'
+    'table'
+    'picture'
+    'main'
+    'footer';
+    grid-gap: 10px;
+    padding: 10px;
+  }
 }
 
