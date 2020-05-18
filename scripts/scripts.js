@@ -4,7 +4,7 @@ function myMove() {
     var id = setInterval(frame, 5);
     function frame() {
       if (pos == 350) {
-        clearInterval(id);
+        clearInterval(class);
       } else {
         pos++; 
         elem.style.top = pos + "px"; 
