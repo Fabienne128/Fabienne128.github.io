@@ -227,3 +227,11 @@
   }
 }
 
+
+/*codes for the cahnges with javascript*/
+
+/*changing the heading*/
+.heading {
+  background-color: green;
+  font-size: 60px;
+}

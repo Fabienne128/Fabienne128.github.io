@@ -5,6 +5,15 @@ function myMove() {
     function frame() {
       if (pos == 150) {
         clearInterval(id);
+        function setzeCSSLink() {
+            var CSSlink = document.createElement('style/newstyle.css');
+                CSSlink.rel = "stylesheet";
+                CSSlink.href = "style/newstyle.css";
+                CSSlink.type = "text/css";
+                
+                /*document.getElementsByTagName('head')[0].appendChild(CSSlink)*/
+            }
+        /*document.getElementById("heading").style.color = "blue";*/
       } else {
         pos++; 
         elem.style.top = pos + "px"; 
