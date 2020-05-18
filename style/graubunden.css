@@ -11,6 +11,7 @@
 .item10 { grid-area: picture2;}
 .item11 { grid-area: Comment2;}
 
+
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -138,8 +139,9 @@
 }
 
 
-@media only screen and (min-width:500px) {
+@media only screen and (min-width:100px) {
     .grid-container {
+        background-color: lightskyblue;
         display: grid;
         grid-template-areas:
         'header header header header header2 header2 header2 header2'
@@ -152,8 +154,9 @@
       }
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:800px) {
     .grid-container {
+        background-color: mediumspringgreen;
         display: grid;
         grid-template-areas:
         'header'
@@ -164,6 +167,7 @@
         'Comment'
         'header2'
         'picture2'
+        'table2'
         'main2'
         'Comment2';
         grid-gap: 10px;
@@ -171,4 +175,20 @@
       }
 }
 
+@media only screen and (min-width:800px) and (max-width:1000px) {
+    .grid-container {
+        background-color: paleturquoise;
+        display: grid;
+        grid-template-areas: 
+        'header header'
+        'menu menu'
+        'picture picture'
+        'table main'
+        'Comment Comment'
+        'header2 header2'
+        'picture2 picture2'
+        'table2 main2'
+        'Comment2 Comment2';
+    }
+}
 

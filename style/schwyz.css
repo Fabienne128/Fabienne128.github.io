@@ -92,8 +92,35 @@
   background-color: rgb(247, 247, 247);
 }
 
-@media only screen and (min-width:600px) {
+/*Button of Javascript effect*/
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: rgba(255, 246, 246, 0.993);
+  background-color: rgb(71, 69, 71);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+/*animation*/
+/*.animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: rgb(148, 46, 46);
+}
+.container {
+  width:200px;
+  height:200px;
+  position: relative;
+}*/
+
+@media only screen and (min-width:1000px) {
     .grid-container {
+      background-color: peru ;
         display: grid;
         grid-template-areas:
         'header header header header header header header'
@@ -102,11 +129,24 @@
         'footer footer footer footer footer footer footer';
         grid-gap: 10px;
         padding: 10px;
-      }
+    }
+    .container {
+      background: peru;
+      width: 200px;
+      height: 200px;
+      position: relative;
+    }
+    .animate {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      background-color: rgb(148, 46, 46); 
+    }
 }
 
-/*@media only screen and (width:800px - 1000px) {
+@media only screen and (min-width:800px) and (max-width:1000px) {
   .grid-container {
+    background-color: powderblue;
     display: grid;
     grid-template-areas: 
     'header header'
@@ -117,10 +157,23 @@
     grid-gap: 10px;
     padding: 10px;
   }
-}*/
+  .container {
+    background: powderblue;
+    width:200px;
+    height:200px;
+    position: relative;
+  }
+  .animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(148, 46, 46); 
+  }
+}
 
-@media only screen and (max-width:800px) {
+@media only screen and (min-width:500px) and (max-width:800px) {
     .grid-container {
+      background-color: palegoldenrod;
         display: grid;
         grid-template-areas:
         'header header'
@@ -131,10 +184,24 @@
         grid-gap: 10px;
         padding: 10px;
       }
-}
+      .container {
+        background: palegoldenrod;
+        width:200px;
+        height:200px;
+        position: relative;
+      }
+      .animate {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background-color: rgb(148, 46, 46); 
+      }
+    }
+
 
 @media only screen and (max-width:500px) {
   .grid-container{
+    background-color: peachpuff;
     display: grid;
     grid-template-areas: 
     'header'
@@ -145,6 +212,18 @@
     'footer';
     grid-gap: 10px;
     padding: 10px;
+  }
+  .container {
+    background: peachpuff;
+    width:200px;
+    height:200px;
+    position: relative;
+  }
+  .animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(148, 46, 46); 
   }
 }
 
