@@ -55,7 +55,7 @@
   .item5 { grid-area: picture; }
   .item6 { grid-area: footer; }
 
-  
+  /*
   @media only screen and (min-width:600px) {
     .grid-container {
         display: grid;
@@ -96,4 +96,4 @@
         opacity: 0.7;
         font-family: 'Times New Roman', Times, serif;
       }
-}
+}*/
