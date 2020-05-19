@@ -24,7 +24,14 @@ function myMove() {
 
       document.getElementById('gridcontainer').style.backgroundColor = 'lightblue';
 
-      
+      document.getElementById('item7').style.fontFamily = 'Agency FB';
+      document.getElementById('item7').style.fontSize = '50px';
+      document.getElementById('item7').style.backgroundColor = 'lightgrey';
+
+      document.getElementById('item8').style.backgroundColor = 'lightgrey';
+      document.getElementById('item8').style.backgroundColor = 'lightgrey';
+      document.getElementById('item8').style.fontFamily = 'Agency FB'; 
+      document.getElementById('item8').style.fontSize = '20px';
 
     } 
     else {

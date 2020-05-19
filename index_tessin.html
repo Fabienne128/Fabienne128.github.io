@@ -11,12 +11,12 @@
   <body>
 
     <div class="grid-container">
-      <div class="item1">
+      <div class="item1" id="item1">
         <h1>Swiss Miniatur</h1>
         <h3>Die Schweiz zum Greifen nah</h3>
       </div>
 
-    <div class="item2">
+    <div class="item2" id="item2">
       <ul>
         <li> <a href="index_tessin.html" class="active"> Tessin</a></li>
         <li> <a href="index.html"> Home</a> </li>
@@ -24,10 +24,12 @@
         <li>  <a href="index_zurich.html"> Zürich</a> </li>
         <li> <a href="index_stgallen.html">St.Gallen</a> </li>
         <li> <a href="index_graubunden.html">Graubünden</a></li>
+        <li> <button class="button" onclick="myMove()"> Click me to see magic</button></li>
+        <li> <div class="container"> <div class="animate" id="animate"></div> </div></li>
       </ul>
     </div>
 
-    <div class="item3"> 
+    <div class="item3" id="item3"> 
       <table> 
       <tr>
         <td>Ortschaft:</td>
@@ -49,8 +51,8 @@
 
     </div>
 
-    <div class="item4">
-      <p> 
+    <div class="item4" id="item4">
+      <p id="item4"> 
         Eröffnet im Jahre 1959 zeigt das <a href="https://www.swissminiatur.ch"> Swiss Miniatur</a> die Schweiz in einem kleinen Massstab.
         Die masstabgetreuen Häuser zeigen die wichtigsten Merkmale der Schweiz. 
         Somit kann man in einem Tag, die ganze Schweiz ohne Mühe entdecken. 
@@ -60,13 +62,13 @@
         </p> 
     </div>
 
-    <div class="item5">
+    <div class="item5" id="item5">
       <img src="img/swiss_miniatur_1.jpg" alt="Swiss Miniatur" width="100%">
     </div>
 
 
     </div>
-
+    <script src="scripts/scripts.js"></script>
     <!-- 
 
     <div class="topnav" id="mytopnav">

@@ -12,12 +12,12 @@
   <body>
 
     <div class="grid-container">
-      <div class="item1">
+      <div class="item1" id="item1">
         <h1>Bruno Weber</h1>
         <h3>Ein schweizer Künslter mit dem eigenen Park</h3>
       </div>
 
-    <div class="item2">
+    <div class="item2" id="item2">
       <ul>
         <li> <a href="index_zurich.html" class="active"> Zürich</a></li>
         <li> <a href="index.html"> Home</a> </li>
@@ -25,10 +25,12 @@
         <li>  <a href="index_tessin.html"> Tessin</a> </li>
         <li> <a href="index_stgallen.html">St.Gallen</a> </li>
         <li> <a href="index_graubunden.html">Graubünden</a></li>
+        <li> <button class="button" onclick="myMove()"> Click me to see magic</button></li>
+        <li> <div class="container"> <div class="animate" id="animate"></div> </div></li>
       </ul>
     </div>
 
-    <div class="item3"> 
+    <div class="item3" id="item3"> 
       <table> 
       <tr>
         <td>Ortschaft:</td>
@@ -50,8 +52,8 @@
 
     </div>
 
-    <div class="item4">
-      <p> 
+    <div class="item4" id="item4">
+      <p id="item4"> 
         Der <a href="https://www.brunoweberpark.ch"> Bruno Weber Park</a> ist ein über 150'000 Quadratmeter grosses Areal, auf welchem Skulpturen vom Künstler Bruno Weber gezeit werden. 
         Er ist schweizweit der grösste Park, welcher nur Ausstellungsstücke eines Künstlers zeigt.    
         <a href="http://www.brunoweberpark.ch/biografie"> Bruno Weber</a> selbst, widmete sich seit den 60er Jahren der Landschaftsgestaltung mittels Skulpturen.  
@@ -64,13 +66,13 @@
       </p> 
     </div>
 
-    <div class="item5">
+    <div class="item5" id="item5">
       <img src="img/bruno_weber_1.jpg" alt="Bruno Weber Park" width="100%">
     </div>
 
-
+    
     </div>
-
+    <script src="scripts/scripts.js"></script>
 
 
     <!-- 
