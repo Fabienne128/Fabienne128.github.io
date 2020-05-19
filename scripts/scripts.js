@@ -13,6 +13,8 @@ function myMove() {
       document.getElementById('item1').style.backgroundColor = 'lightgrey';
 
       document.getElementById('item2').style.backgroundColor = 'lightgrey';
+      document.getElementById('item2').style.fontFamily = 'Agency FB';
+      document.getElementById('item2').style.fontStyle = 'normal';
 
       document.getElementById('item3').style.backgroundColor = 'lightgrey';
       document.getElementById('item3').style.fontFamily = 'Agency FB'; 
